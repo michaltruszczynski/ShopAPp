@@ -49,7 +49,7 @@ const LandingPage = () => {
         setSkip(skip);
     }
 
-    const showFilteredResult = (filters) => {
+    const showFilteredResults = (filters) => {
         const variables = {
             skip: 0,
             limit: Limit,
@@ -69,7 +69,7 @@ const LandingPage = () => {
         if (category === 'price') {
 
         }
-        showFilteredResult(newFilters)
+        showFilteredResults(newFilters)
         setFilters(newFilters)
     }
 
